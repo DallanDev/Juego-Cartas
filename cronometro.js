@@ -18,7 +18,7 @@ function iniciaCronometro() {
       }
       segundosTexto = segundos;
       minutosTexto = minutos;
-      if (segundos < 30) {
+      if (segundos < 10) { // CORREGIDO: antes estaba "segundos < 30"
         segundosTexto = "0" + segundos;
       }
       if (minutos < 10) {
